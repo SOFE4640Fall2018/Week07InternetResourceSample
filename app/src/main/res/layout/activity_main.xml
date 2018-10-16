@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/lblName"
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/lblName" />
+
+
+    <TextView android:id="@+id/lblDefinition"
+        android:text="@string/definition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText android:id="@+id/txtDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/lblDefinition"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button android:id="@+id/btnGetDefinition"
+        android:text="@string/get_definition"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/txtDefinition" />
+
+</RelativeLayout>

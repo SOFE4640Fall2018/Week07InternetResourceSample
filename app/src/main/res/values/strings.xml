@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Internet Resources Sample</string>
+    <string name="enter_name">Enter Your Name</string>
+
+    <string name="name">Name:</string>
+    <string name="get_definition">Get Definition</string>
+    <string name="definition">Definition:</string>
+
+    <string name="what_is_your_name">What is your first name?</string>
+    <string name="back">Back</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
